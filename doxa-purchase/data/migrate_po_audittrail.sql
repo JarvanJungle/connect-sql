@@ -1,0 +1,2 @@
+insert into purchase_order_audit_trail (user_name, user_role, user_uuid, action, date_time, approval_group, purchase_order_id, approval_group_uuid, remark, status)
+          select user_name, user_uuid, role, action, date, current_group, po_id, null, remark, status from po_audit_trail

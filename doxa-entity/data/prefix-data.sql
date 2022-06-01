@@ -1,0 +1,6 @@
+INSERT INTO public.prefix_configurable_functions (function_name, function_code, default_prefix, default_number_of_digits, is_buyer_portal) VALUES ('Purchase Order', 'PO', 'PO', 9, true);
+INSERT INTO public.prefix_configurable_functions (function_name, function_code, default_prefix, default_number_of_digits, is_buyer_portal) VALUES ('Rental/Leasing Order', 'LO', 'LO', 9, true);
+INSERT INTO public.prefix_configurable_functions (function_name, function_code, default_prefix, default_number_of_digits, is_buyer_portal) VALUES ('Repair Order', 'RO', 'RO', 9, true);
+INSERT INTO public.prefix_configurable_functions (function_name, function_code, default_prefix, default_number_of_digits, is_buyer_portal) VALUES ('Invoice', 'INV', 'INV', 9, false);
+INSERT INTO public.prefix_configurable_functions (function_name, function_code, default_prefix, default_number_of_digits, is_buyer_portal) VALUES ('Delivery Order', 'DO', 'DO', 9, false);
+INSERT INTO public.prefix_configurable_functions (function_name, function_code, default_prefix, default_number_of_digits, is_buyer_portal) VALUES ('Service Order', 'SO', 'SO', 9, false);
